@@ -655,6 +655,9 @@ hr {
         height: 70%;
         width: 70%;
     }
+    .image {
+        width: inherit;
+    }
     .navbar-toggler {
         padding-bottom: 3%;
         padding-right: 2%;
@@ -700,4 +703,43 @@ hr {
     .text-center {
         font-size: 1.5rem;
     }
+    .intropara {
+        font-size: 1rem;
+    }
+    .heading {
+        font-size: 1.5rem;
+    }
+    .smallicons {
+        margin-left: 30%;
+    }
+    .head {
+        font-size: 1.5rem;
+    }
+    .body-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .image {
+        width: 320px;
+    }
+    .intropara {
+        font-size: 1rem;
+    }
+    .heading {
+        font-size: 1.5rem;
+    }
+    .smallicons {
+        margin-left: 30%;
+    }
+    .head {
+        font-size: 1.5rem;
+    }
+    .body-text {
+        font-size: 1rem;
+    }
+    /* .learn{
+        
+    } */
 }
