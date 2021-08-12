@@ -42,10 +42,6 @@
     padding: 3%;
 }
 
-.body {
-    height: 100px;
-}
-
 .navhead {
     color: yellow;
 }
@@ -171,7 +167,7 @@ hr {
 
 .image {
     height: 357.300px;
-    width: 379.800px;
+    width: inherit;
 }
 
 .column {
@@ -545,6 +541,9 @@ hr {
 /* media queries */
 
 @media (max-width: 768px) {
+    .image {
+        width: inherit;
+    }
     .heading {
         font-size: 2rem;
     }
@@ -596,6 +595,9 @@ hr {
     /* body {
         line-height: 2;
     } */
+    .image {
+        width: inherit;
+    }
     .heading {
         font-size: 2rem;
     }
@@ -722,7 +724,7 @@ hr {
 
 @media (max-width: 320px) {
     .image {
-        width: 320px;
+        width: inherit;
     }
     .intropara {
         font-size: 1rem;
